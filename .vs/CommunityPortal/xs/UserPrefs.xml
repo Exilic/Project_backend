@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{D2DFF343-4A40-4EFB-A18E-82A8F9D0CF03}|Default">
+  <MonoDevelop.Ide.ItemProperties.CommunityPortal PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Models/Post.cs" Line="10" Column="27" />
+      <File FileName="Controllers/NewsController.cs" />
+      <File FileName="Controllers/ForumController.cs" />
+      <File FileName="Models/ViewModels/CreatePostViewModel.cs" />
+      <File FileName="Controllers/MemberController.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Views/Member/Index.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Models/Services/INewsService.cs" />
+      <File FileName="Models/Services/NewsService.cs" />
+      <File FileName="Startup.cs" Line="32" Column="52" />
+      <File FileName="Models/Data/INewsRepo.cs" />
+      <File FileName="Models/Data/DatabaseNewsRepo.cs" />
+      <File FileName="appsettings.json" Line="11" Column="72" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CommunityPortal" expanded="True" selected="True">
+            <Node name="CommunityPortal" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Services" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Member" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

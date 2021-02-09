@@ -26,10 +26,10 @@ namespace CommunityPortal
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<IdentityPeopleDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<CommunityDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<CommunityUser, IdentityRole>()
-                .AddEntityFrameworkStores<IdentityPeopleDbContext>()
+                .AddEntityFrameworkStores<CommunityDbContext>()
                 .AddDefaultTokenProviders();
 
             services.AddScoped<INewsService, NewsService>();
